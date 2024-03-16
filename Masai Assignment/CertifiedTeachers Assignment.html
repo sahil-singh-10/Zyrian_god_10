@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certified Teachers</title>
+  <style>
+    .container {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 20px;
+      text-align: center;
+    }
+
+    .heading {
+      font-size: 34px;
+    }
+
+    .description {
+      margin-top: 2px;
+      font-size: 24px;
+    }
+
+    .teachers {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .teacher {
+      width: 450px;
+      height: 500px;
+      margin-top: 20px;
+      border: 1px solid #ccc;
+      padding: 20px;
+      box-sizing: border-box;
+      box-shadow: 0 14px 18px rgba(0, 0, 0, 0.1); 
+    }
+
+    .teacher img {
+      width: 100%;
+    }
+
+    .info {
+      margin-top: 20px;
+    }
+
+    .name {
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .title {
+      color: #000000;
+      font-size: 16px;
+      margin-top: 5px;
+    }
+
+    .placeholder {
+      font-size: 14px;
+      color: #030303;
+    }
+
+    .business-school {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .business-school-item {
+      text-align: center;
+      margin-bottom: 20px;
+      flex: 0 0 calc(33.33% - 40px); 
+    }
+
+    .business-school-item img {
+      width: 100px;
+      height: 100px;
+    }
+
+    .business-school-item p {
+      margin-top: 10px;
+    }
+
+    .business-school-line {
+      text-align: left;
+      margin-top: 10px;
+    }
+
+    @media only screen and (max-width: 768px) {
+      .business-school-item {
+        flex-basis: calc(50% - 40px); 
+      }
+    }
+
+    @media only screen and (max-width: 480px) {
+      .business-school-item {
+        flex-basis: calc(100% - 40px); 
+      }
+
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="heading">Certified Teachers</h1>
+    <div class="line"></div>
+    <p class="description">They live in a small river named Duden flows by their place and <br> supplies it with the necessary regelialia. It is a paradisematic country.</p>
+    <div class="teachers">
+      <div class="teacher">
+        <img src="https://static.wixstatic.com/media/7fa9fc_d0d926e12dcb45c0b27e0cccd52946c3~mv2.jpg/v1/fill/w_1440,h_960,al_c/7fa9fc_d0d926e12dcb45c0b27e0cccd52946c3~mv2.jpg" alt="Teacher Photo">
+        <div class="info">
+          <p class="name">Wilson</p>
+          <p class="title">Teacher</p>
+          <p class="placeholder">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, reprehenderit.</p>
+        </div>
+      </div>
+      <div class="teacher">
+        <img src="https://static.wixstatic.com/media/7fa9fc_d0d926e12dcb45c0b27e0cccd52946c3~mv2.jpg/v1/fill/w_1440,h_960,al_c/7fa9fc_d0d926e12dcb45c0b27e0cccd52946c3~mv2.jpg" alt="Teacher Photo">
+        <div class="info">
+          <p class="name">Wilson</p>
+          <p class="title">Teacher</p>
+          <p class="placeholder">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, reprehenderit.</p>
+        </div>
+      </div>
+      <div class="teacher">
+        <img src="https://static.wixstatic.com/media/7fa9fc_d0d926e12dcb45c0b27e0cccd52946c3~mv2.jpg/v1/fill/w_1440,h_960,al_c/7fa9fc_d0d926e12dcb45c0b27e0cccd52946c3~mv2.jpg" alt="Teacher Photo">
+        <div class="info">
+          <p class="name">Wilson</p>
+          <p class="title">Teacher</p>
+          <p class="placeholder">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, reprehenderit.</p>
+        </div>
+      </div>
+      <div class="teacher">
+        <img src="https://static.wixstatic.com/media/7fa9fc_d0d926e12dcb45c0b27e0cccd52946c3~mv2.jpg/v1/fill/w_1440,h_960,al_c/7fa9fc_d0d926e12dcb45c0b27e0cccd52946c3~mv2.jpg" alt="Teacher Photo">
+        <div class="info">
+          <p class="name">Wilson</p>
+          <p class="title">Teacher</p>
+          <p class="placeholder">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, reprehenderit.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="business-school">
+      <div class="business-school-item">
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQk5I_fDBzmjg0CVgEqIuHWi7D8TvcsXlPHkJs0OgsyU9ifEvSE" alt="Business School">
+        <p>Buisness School</p>
+        <div class="business-school-line">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam aut tempore, velit quia enim nostrum iure illum similique, magni repellendus</p>
+        </div>
+      </div>
+      <div class="business-school-item">
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQk5I_fDBzmjg0CVgEqIuHWi7D8TvcsXlPHkJs0OgsyU9ifEvSE" alt="Business School">
+        <p>Buisness School</p>
+        <div class="business-school-line">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam aut tempore, velit quia enim nostrum iure illum similique, magni repellendus</p>
+        </div>
+      </div>
+      <div class="business-school-item">
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQk5I_fDBzmjg0CVgEqIuHWi7D8TvcsXlPHkJs0OgsyU9ifEvSE" alt="Business School">
+        <p>Buisness School</p>
+        <div class="business-school-line">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam aut tempore, velit quia enim nostrum iure illum similique, magni repellendus</p>
+        </div>
+      </div>
+      <div class="business-school-item">
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQk5I_fDBzmjg0CVgEqIuHWi7D8TvcsXlPHkJs0OgsyU9ifEvSE" alt="Business School">
+        <p>Buisness School</p>
+        <div class="business-school-line">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam aut tempore, velit quia enim nostrum iure illum similique, magni repellendus</p>
+        </div>
+      </div>
+      <div class="business-school-item">
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQk5I_fDBzmjg0CVgEqIuHWi7D8TvcsXlPHkJs0OgsyU9ifEvSE" alt="Business School">
+        <p>Buisness School</p>
+        <div class="business-school-line">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam aut tempore, velit quia enim nostrum iure illum similique, magni repellendus</p>
+        </div>
+      </div>
+      <div class="business-school-item">
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQk5I_fDBzmjg0CVgEqIuHWi7D8TvcsXlPHkJs0OgsyU9ifEvSE" alt="Business School">
+        <p>Buisness School</p>
+        <div class="business-school-line">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam aut tempore, velit quia enim nostrum iure illum similique, magni repellendus</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
